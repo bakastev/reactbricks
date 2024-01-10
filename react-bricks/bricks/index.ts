@@ -2,7 +2,7 @@ import { types } from 'react-bricks/frontend'
 
 import HeroUnit from './custom/MyHeroUnit'
 import Pokemon from './custom/Pokemon'
-import MagicCard from './MagicCard' 
+import MagicCard from './custom/MagicCard' 
 import reactBricksUITheme from './react-bricks-ui'
 
 const bricks: types.Theme[] = [
