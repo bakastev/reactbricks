@@ -2,7 +2,6 @@ import { types } from 'react-bricks/frontend'
 
 import HeroUnit from './custom/MyHeroUnit'
 import Pokemon from './custom/Pokemon'
-import MagicCard from './custom/MagicCard' 
 import reactBricksUITheme from './react-bricks-ui'
 
 const bricks: types.Theme[] = [
@@ -12,7 +11,7 @@ const bricks: types.Theme[] = [
     categories: [
       {
         categoryName: 'Hero sections',
-        bricks: [HeroUnit, MagicCard], // Custom Bricks
+        bricks: [HeroUnit], // Custom Bricks
       },
       {
         categoryName: 'Pokemon',
