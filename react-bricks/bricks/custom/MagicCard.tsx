@@ -1,7 +1,7 @@
 // MagicCard.tsx
 import React from 'react'
 import { types, Text } from 'react-bricks/frontend'
-import './MagicCard.css' // Stellen Sie sicher, dass Sie das CSS hier importieren
+import './MagicCard.module.css' // Stellen Sie sicher, dass Sie das CSS hier importieren
 
 const MagicCard: types.Brick = () => {
   return (
