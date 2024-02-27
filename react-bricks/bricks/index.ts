@@ -1,4 +1,3 @@
-import { Brick } from 'react-bricks';
 import HeroUnit, { HeroUnitProps } from './custom/MyHeroUnit';
 import Pokemon, { PokemonProps } from './custom/Pokemon';
 import reactBricksUITheme from './react-bricks-ui';
