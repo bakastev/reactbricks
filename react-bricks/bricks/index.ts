@@ -1,7 +1,7 @@
 import HeroUnitProps from './custom/MyHeroUnit';
 import PokemonProps from './custom/Pokemon';
 import reactBricksUITheme from './react-bricks-ui';
-import { BackgroundGradient, BackgroundGradientProps } from './custom/background-gradient';
+import { BackgroundGradient } from './custom/background-gradient';
 
 interface BrickInterface {
   schema: IBlockType<any>;
