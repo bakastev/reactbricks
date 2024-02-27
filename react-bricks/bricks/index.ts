@@ -3,14 +3,14 @@ import PokemonProps from './custom/Pokemon';
 import reactBricksUITheme from './react-bricks-ui';
 import { BackgroundGradient } from './custom/background-gradient';
 
-const bricks: Brick<any>[] = [
+const bricks: types.Theme[] = [
   reactBricksUITheme, // React Bricks UI
   {
-    themeName: 'Default',
+    themeName: 'Custom Theme 1',
     categories: [
       {
         categoryName: 'Hero sections',
-        bricks: [HeroUnit, BackgroundGradient],
+        bricks: [HeroUnit, BackgroundGradient], // Custom Bricks
       },
       {
         categoryName: 'Pokemon',
@@ -18,6 +18,6 @@ const bricks: Brick<any>[] = [
       },
     ],
   },
-];
+]
 
 export default bricks;
