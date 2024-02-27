@@ -1,27 +1,28 @@
-import { types } from 'react-bricks/frontend'
+import { Brick, IBlockType } from 'react-bricks';
+import HeroUnit, { HeroUnitProps } from './custom/MyHeroUnit';
+import Pokemon, { PokemonProps } from './custom/Pokemon';
+import reactBricksUITheme from './react-bricks-ui';
+import { BackgroundGradient, BackgroundGradientProps } from './custom/background-gradient';
 
-import HeroUnit from './custom/MyHeroUnit'
-import Pokemon from './custom/Pokemon'
-import reactBricksUITheme from './react-bricks-ui'
-import { BackgroundGradient } from './custom/background-gradient';
+interface BrickInterface {
+  schema: IBlockType<any>;
+}
 
-
-const bricks: types.Theme[] = [
+const bricks: Brick<any>[] = [
   reactBricksUITheme, // React Bricks UI
   {
     themeName: 'Default',
     categories: [
       {
         categoryName: 'Hero sections',
-        bricks: [HeroUnit, BackgroundGradient], // Custom Bricks
+        bricks: [HeroUnit, BackgroundGradient],
       },
       {
         categoryName: 'Pokemon',
-        bricks: [Pokemon], // External data Bricks
+        bricks: [Pokemon],
       },
     ],
   },
-]
+];
 
-export default bricks
-
+export default bricks;
