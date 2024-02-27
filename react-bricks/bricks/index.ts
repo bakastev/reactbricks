@@ -1,3 +1,4 @@
+import { types } from 'react-bricks/frontend';
 import HeroUnitProps from './custom/MyHeroUnit';
 import PokemonProps from './custom/Pokemon';
 import reactBricksUITheme from './react-bricks-ui';
