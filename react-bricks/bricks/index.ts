@@ -12,7 +12,7 @@ const bricks: types.Theme[] = [
     categories: [
       {
         categoryName: 'Hero sections',
-        bricks: [HeroUnit], // Custom Bricks
+        bricks: [HeroUnit, BackgroundGradient], // Custom Bricks
       },
       {
         categoryName: 'Pokemon',
