@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "clsx": "^2.1.0",
     "dayjs": "^1.11.7",
     "email-validator": "^2.0.4",
+    "framer-motion": "^11.0.6",
     "jsonp": "^0.2.1",
     "next": "13.2.4",
     "next-themes": "^0.2.1",
@@ -23,7 +25,8 @@
     "react-bricks": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
