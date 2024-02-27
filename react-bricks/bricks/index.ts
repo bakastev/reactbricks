@@ -11,7 +11,7 @@ const bricks: types.Theme[] = [
     categories: [
       {
         categoryName: 'Hero sections',
-        bricks: [MyHeroUnit], // Nur MyHeroUnit hier
+        bricks: [MyHeroUnit, BackgroundGradient], // Nur MyHeroUnit hier
       },
       {
         categoryName: 'Pokemon',
