@@ -1,8 +1,17 @@
+import { types } from 'react-bricks/frontend';
 import { cn } from "@/utils/cn";
 import React from "react";
 import { motion } from "framer-motion";
-import { types } from 'react-bricks/frontend';
 
+const Thumbnail: types.Brick = () => {
+  return <div className="p-6 text-center">BackgroundGradient</div>
+}
+
+Thumbnail.schema = {
+  name: 'backgroundgradient',
+  label: 'BackgroundGradient',
+  sideEditProps: [],
+}
 export const BackgroundGradient = ({
   children,
   className,
@@ -66,8 +75,10 @@ export const BackgroundGradient = ({
           "bg-[radial-gradient(circle_farthest-side_at_0_100%,#00ccb1,transparent),radial-gradient(circle_farthest-side_at_100%_0,#7b61ff,transparent),radial-gradient(circle_farthest-side_at_100%_100%,#ffc414,transparent),radial-gradient(circle_farthest-side_at_0_0,#1ca0fb,#141316)]"
         )}
       />
-
+ 
       <div className={cn("relative z-10", className)}>{children}</div>
     </div>
   );
 };
+
+export default BackgroundGradient
