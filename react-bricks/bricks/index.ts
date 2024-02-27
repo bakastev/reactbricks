@@ -1,5 +1,5 @@
 import HeroUnitProps from './custom/MyHeroUnit';
-import Pokemon, { PokemonProps } from './custom/Pokemon';
+import PokemonProps from './custom/Pokemon';
 import reactBricksUITheme from './react-bricks-ui';
 import { BackgroundGradient, BackgroundGradientProps } from './custom/background-gradient';
 
