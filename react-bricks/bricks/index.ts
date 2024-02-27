@@ -1,5 +1,5 @@
 import { types } from 'react-bricks/frontend';
-import MyHeroUnit, { MyHeroUnitProps } from './custom/MyHeroUnit'; // Hier importieren wir MyHeroUnit und MyHeroUnitProps
+import MyHeroUnit from './custom/MyHeroUnit'; // Wir importieren nur MyHeroUnit, nicht MyHeroUnitProps
 import Pokemon from './custom/Pokemon';
 import reactBricksUITheme from './react-bricks-ui';
 import { BackgroundGradient } from './custom/background-gradient';
